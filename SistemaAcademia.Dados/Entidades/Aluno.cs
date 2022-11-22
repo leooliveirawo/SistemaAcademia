@@ -14,5 +14,8 @@
         public string Telefone2 { get; set; }
         public string Telefone3 { get; set; }
         public string Email { get; set; }
+
+        public long PlanoId { get; set; }
+        public Plano Plano { get; set; }
     }
 }

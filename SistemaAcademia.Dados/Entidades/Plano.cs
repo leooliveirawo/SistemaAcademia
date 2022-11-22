@@ -6,5 +6,12 @@
         public int DiasValidos { get; set; }
         public decimal Valor { get; set; }
         public int NumeroParcelas { get; set; }
+
+        public ICollection<Aluno> Alunos { get; set; }
+
+        public Plano()
+        {
+            Alunos = new List<Aluno>();
+        }
     }
 }
