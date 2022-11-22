@@ -11,6 +11,5 @@ namespace SistemaAcademia.Dados
         public DbSet<TreinoExercicio> TreinosExercicios { get; set; }
         public DbSet<Pagamento> Pagamentos { get; set; }
         public DbSet<Treino> Treinos { get; set; }
-        public DbSet<TreinoExercicio> TreinosExercicios { get; set; }
     }
 }
