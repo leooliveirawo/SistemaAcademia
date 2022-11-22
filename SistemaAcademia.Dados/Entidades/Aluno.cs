@@ -17,5 +17,12 @@
 
         public long PlanoId { get; set; }
         public Plano Plano { get; set; }
+
+        public ICollection<Treino> Treinos { get; set; }
+
+        public Aluno()
+        {
+            Treinos = new HashSet<Treino>();
+        }
     }
 }
