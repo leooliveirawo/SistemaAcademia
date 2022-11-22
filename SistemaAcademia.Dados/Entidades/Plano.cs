@@ -1,6 +1,6 @@
 ﻿namespace SistemaAcademia.Dados.Entidades
 {
-    public class Plano
+    public class Plano : Entidade
     {
         public string Nome { get; set; }
         public int DiasValidos { get; set; }
