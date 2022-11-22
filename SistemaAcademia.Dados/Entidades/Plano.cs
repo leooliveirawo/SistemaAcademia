@@ -8,10 +8,12 @@
         public int NumeroParcelas { get; set; }
 
         public ICollection<Aluno> Alunos { get; set; }
+        public ICollection<Pagamento> Pagamentos { get; set; }
 
         public Plano()
         {
             Alunos = new List<Aluno>();
+            Pagamentos = new HashSet<Pagamento>();
         }
     }
 }

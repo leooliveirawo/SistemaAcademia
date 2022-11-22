@@ -19,10 +19,12 @@
         public Plano Plano { get; set; }
 
         public ICollection<Treino> Treinos { get; set; }
+        public ICollection<Pagamento> Pagamentos { get; set; }
 
         public Aluno()
         {
             Treinos = new HashSet<Treino>();
+            Pagamentos = new HashSet<Pagamento>();
         }
     }
 }
